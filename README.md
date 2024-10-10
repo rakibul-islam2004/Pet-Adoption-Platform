@@ -44,4 +44,4 @@
 
 ## Live Demo
 
-Check out the live version of **Peddy** [here]([https://pet-adoption-assignment.netlify.app](https://rakibul-islam2004.github.io/Pet-Adoption-Platform/)
+Check out the live version of **Peddy** [here](https://rakibul-islam2004.github.io/Pet-Adoption-Platform/)
