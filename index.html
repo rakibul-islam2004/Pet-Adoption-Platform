@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.12/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/f5a797b4e4.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Peddy</title>
+  </head>
+  <body>
+    <header class="w-11/12 md:w-10/12 mx-auto">
+      <nav 
+        class="flex justify-between items-center text-2xl lg:text-3xl font-extrabold py-5"
+      >
+        <div class="flex justify-between items-center gap-1 md:gap-2 cursor-pointer">
+          <img src="images/logo.webp" alt="" class="w-8 h-6" />
+
+          <h2>Peddy</h2>
+        </div>
+        <div class="hidden md:block">
+          <ul
+            class=" flex  md:gap-10 justify-center  md:text-2xl font-semibold"
+          >
+            <li class="cursor-pointer">Home</li>
+            <li class="cursor-pointer">Shop</li>
+            <li class="cursor-pointer">Contact</li>
+          </ul>
+        </div>
+        <div>
+          <div
+            class="bg-slate-50 border-2 border-gray-100 w-12 h-12 md:w-14 md:h-14 rounded-full flex justify-center items-center cursor-pointer"
+          >
+            <i class="fa-regular fa-user"></i>
+          </div>
+        </div>
+        <div class="block md:hidden cursor-pointer">
+          <i  id="menu-icon"  class="fa-solid fa-bars"></i>
+        </div>
+      </nav>
+
+      <ul  id="menu-list"
+      class="hidden showData"
+    >
+      <li class="cursor-pointer bg-[#7dcfd5] hover:bg-[#0E7A81] py-3 hover:text-white">Home</li>
+      <li class="cursor-pointer bg-[#7dcfd5] hover:bg-[#0E7A81] py-3 hover:text-white">Shop</li>
+      <li class="cursor-pointer bg-[#7dcfd5] hover:bg-[#0E7A81] py-3 hover:text-white">Contact</li>
+    </ul>
+
+
+    </header>
+    <main id="main" class="w-11/12 md:w-10/12 mx-auto">
+      <section class="banner text-center flex flex-col gap-20 my-10 px-[10%]">
+        <div>
+          <p>Bringing Families Together ❤️‍🔥</p>
+          <h2 class="text-4xl md:text-6xl font-extrabold py-10">
+            Your Path to Adoption Starts Here
+          </h2>
+          <p class="text-xl">
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at its layout. The point
+            of using Lorem Ipsum is that it has a.
+          </p>
+
+          <a href="#buttons" class="btn mt-10 bg-[#2e8288] hover:bg-[#0c8d96] text-white text-xl">
+            View More
+          </a>
+
+        </div>
+        <div>
+          <img src="images/pet.webp" alt="" class="mx-auto" />
+        </div>
+      </section>
+      <section class="flex flex-col gap-12 py-10">
+        <div class="text-center px-[8%] md:px-[15%]">
+          <h2 class="text-4xl font-bold py-5">Adopt Your Best Friend</h2>
+          <p>
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at its layout. The point
+            of using Lorem Ipsum is that it has a.
+          </p>
+        </div>
+
+         <div id="buttons" class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-5 p-4">
+            
+         </div>  
+
+
+
+        <div class="flex justify-between items-center">
+          <h2 class="text-xl md:text-2xl font-bold">Best Deal For you</h2>
+          <button
+            id="sortButton"
+            class="btn text-xl text-white bg-[#2e8288] hover:bg-[#0c8d96]"
+          >
+            Sort by Price
+          </button>
+        </div>
+        <div class="grid grid-cols-3 md:grid-cols-4 gap-2 md:gap-5 my-5">
+          <div id="leftContainer" class="col-span-2 md:col-span-3 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-2 md:gap-5">
+
+          </div>
+          <div
+            id="rightContainer"
+            class="col-span-1 grid grid-cols-1 md:grid-cols-1 xl:grid-cols-2 border-2 auto-rows-max border-gray-200 rounded-md gap-2 md:gap-3 p-2"
+          >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-gray-950 py-24 text-white">
+      <div class="mx-auto w-11/12 md:w-10/12 flex flex-col gap-10 md:flex-row justify-between">
+        <div class="flex flex-col gap-2">
+          <div
+            class="flex items-center gap-2 cursor-pointer font-bold text-4xl pb-5"
+          >
+            <img src="images/logo.webp" alt="" class="w-8 h-6" />
+
+            <h2>Peddy</h2>
+          </div>
+          <p>Location: av. Washington 165, NY CA 54003</p>
+          <p>Phone: +31 85 964 47 25</p>
+          <p>Email: info@yourdomain.com</p>
+          <p>Openings hours: 9.00 AM - 5.00 PM</p>
+        </div>
+        <div class="list-none flex flex-col gap-1">
+          <p class="pb-4 text-xl font-bold">Useful Links</p>
+          <p><li>Home</li></p>
+          <p><li>About Us</li></p>
+          <p><li>Animals</li></p>
+          <p><li>Foundation</li></p>
+          <p><li>Contact</li></p>
+        </div>
+        <div>
+          <p class="font-bold text-xl pb-12">Drop a Message</p>
+          <input
+            type="email"
+            class="w-60 h-12 rounded-lg bg-gray-500 p-3 placeholder-gray-600"
+            placeholder="Enter your email:"
+          />
+          <br /><br />
+          <button
+            class="btn w-60 h-10 rounded-lg bg-[#3d7276] hover:bg-[#0E7A81]"
+          >
+            Subscribe
+          </button>
+        </div>
+      </div>
+    </footer>
+    
+   
+    <!-- Congra Modal -->
+    <dialog id="congraModal" class="modal modal-middle">
+      <div class="modal-box p-6 sm:p-10 md:p-12 lg:p-16">
+        <h2 class="text-2xl text-3xl md:text-4xl text-center font-extrabold">
+          Congratulations!
+        </h2>
+        <p class="text-lg text-xl md:text-2xlp-4 md:p-6 font-bold text-center">
+          You have successfully adopted a pet!
+        </p>
+        <p class="text-center text-md text-lg md:text-xl">
+          Closing in 
+          <span id="countdown" class="font-extrabold text-4xl text-5xl md:text-6xl">
+            3
+          </span>
+          seconds...
+        </p>
+      </div>
+    </dialog>
+    
+
+  <!-- details Modal -->
+  <dialog id="detailsModal" class="modal modal-middle">
+
+  </dialog>
+  
+
+          </div>
+        </form>
+      </div>
+    </div>
+   </dialog>   
+
+   <script src="script.js"></script>
+  </body>
+</html>

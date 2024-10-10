@@ -1,0 +1,52 @@
+.buttonStyle {
+    /* border-2 border-green-800 rounded-lg w-1/5 h-20 bg-lime-50 hover:bg-lime-100 box-border  */
+    /* column-span: 1; */
+    border-width: 2px;
+    border-color: rgb(12, 114, 12);
+    border-radius: 20px;
+    width: 20%;
+    height: 5rem;
+    background: #c2dbd4;
+    font-size: large;
+    font-weight: 700;
+}
+
+.buttonStyle:hover {
+    background: #cbe4d6;
+    border-color: rgb(3, 172, 3);
+}
+
+li {
+    cursor: pointer;
+}
+
+.activeBtnBg {
+    background: #14994d;
+}
+
+.activeBtnBg:hover {
+    background: #25cd6e;
+}
+
+/* view more smooth */
+html {
+    scroll-behavior: smooth;
+}
+
+.categoryBtn {
+    padding: 10px;
+    border-radius: 15px;
+    min-width: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.showData {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-weight: 600;
+}
